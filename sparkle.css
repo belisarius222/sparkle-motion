@@ -1,0 +1,17 @@
+/* CSS declarations go here */
+.sparkle {
+  position: absolute;
+  overflow: hidden;
+  visibility: visible;
+}
+
+.sparkle.star {
+  width: 5px;
+  height: 5px;
+  clip: rect(1px, 4px, 4px, 1px);
+}
+
+.sparkle.tiny {
+  width: 1px;
+  height: 1px;
+}
